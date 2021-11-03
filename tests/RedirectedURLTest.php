@@ -18,7 +18,7 @@ class RedirectedURLTest extends SapphireTest
      */
     protected $model;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->model = RedirectedURL::create();
         parent::setUp();
